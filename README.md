@@ -1,21 +1,24 @@
 # Hi, I'm Yosi Navaro 👋
 
-**Data Engineering Manager · Petabyte-scale pipelines · Production LLM systems**
+**Data Engineering Manager · Petabyte-scale pipelines · Real-time detection · Production LLM systems**
 
-I lead a data engineering team at a cybersecurity SaaS company. For 10+ years I've built and run large-scale data platforms across multiple clouds, and lately I've been putting LLMs into production where they make real decisions, not just demos.
+I lead a data engineering team at a cybersecurity SaaS company. For 10+ years I've built and run large-scale data platforms across multiple clouds. Lately I've been moving security detection from batch to near-real-time, and putting LLMs into production where they make real decisions, not just demos.
 
 ---
 
 ### 🔧 What I work on
 
-- **Big data at scale:** Spark on EMR and Databricks, Delta Lake, petabyte-scale multi-cloud pipelines
-- **Orchestration and reliability:** Airflow DAGs in production, on-call, cost and performance tuning
+- **Big data at scale:** Spark on EMR and Databricks, Delta Lake and Parquet, petabyte-scale multi-cloud pipelines
+- **Real-time detection:** Kafka-based near-real-time pipelines, with lightweight DuckDB engines next to Spark batch where latency matters
+- **Cost and performance engineering:** per-pipeline compute cost tracking, cluster right-sizing, Spark tuning
+- **Orchestration and reliability:** Airflow (MWAA) DAGs in production, monitoring, on-call
 - **Applied AI:** co-designed two production Claude-based decision systems on AWS Bedrock, plus MCP servers and agent workflows for data-platform operations
+- **AI-native engineering:** team-wide Claude Code setup (skills, subagents, automated review and performance gates) and n8n automations
 - **Security data:** Splunk and security-analytics data pipelines
 
 ### 🧰 Stack
 
-`Python` `Scala` `SQL` `Apache Spark` `AWS EMR` `Databricks` `Delta Lake` `Airflow` `Splunk` `AWS` `Azure` `GCP / BigQuery` `Claude / Bedrock` `MCP` `LangChain`
+`Python` `Scala` `SQL` `Apache Spark` `Kafka` `DuckDB` `AWS EMR` `Databricks` `Delta Lake` `Airflow` `Splunk` `AWS` `Azure` `GCP / BigQuery` `Claude / Bedrock` `Claude Code` `MCP` `LangChain` `n8n`
 
 ### 📌 Featured
 
@@ -26,5 +29,5 @@ I lead a data engineering team at a cybersecurity SaaS company. For 10+ years I'
 
 ### 📫 Contact
 
-- LinkedIn: [add your LinkedIn URL]
+- Email: yosinv@gmail.com
 - Based in Israel 🇮🇱
