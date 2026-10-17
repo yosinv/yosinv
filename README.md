@@ -26,7 +26,7 @@ I lead a data engineering team at a cybersecurity SaaS company. For 10+ years I'
 |---|---|
 | [LLMBigQuery](https://github.com/yosinv/LLMBigQuery) | Natural Language to SQL over BigQuery with Claude: ask questions in plain English and get safe SQL back, with read-only guardrails, dry-run cost limits, self-repair, and an execution-accuracy eval harness |
 | [Accessible Stays Finder](https://github.com/yosinv/LMLP_AI_DBX) | Databricks AI agent that finds wheelchair-accessible stays from guest reviews, using LangGraph, MCP tools and Llama 3.3 |
-| [English Star](english-star.md) | AI-assisted English practice app for kids on Cloudflare Workers: an LLM judge with human-in-the-loop corrections decides which uploaded worksheets become personalised lessons, with hard AI cost ceilings, per-child difficulty levels and 14-day photo retention |
+| [English Star](https://github.com/yosinv/english-star-public) | AI-assisted English practice app for kids on Cloudflare Workers: an LLM judge with human-in-the-loop corrections decides which uploaded worksheets become personalised lessons, with hard AI cost ceilings, per-child difficulty levels and 14-day photo retention |
 | [invHunter](https://github.com/yosinv/invHunter-public) | Claude-powered analysis of Tel Aviv Stock Exchange stocks plus a graph-based Polymarket arbitrage scanner, with a Telegram bot and Streamlit dashboard. A research project, not financial advice |
 
 ### 📫 Contact
