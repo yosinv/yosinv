@@ -4,6 +4,7 @@
 
 I lead a data engineering team at a cybersecurity SaaS company. For 10+ years I've built and run large-scale data platforms across multiple clouds. Lately I've been moving security detection from batch to near-real-time, and putting LLMs into production where they make real decisions, not just demos.
 
+www.linkedin.com/in/yosi-navaro-01966036
 ---
 
 ### 🔧 What I work on
