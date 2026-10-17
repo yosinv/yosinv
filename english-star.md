@@ -10,7 +10,7 @@ It runs in production for my family. The repository stays private because it con
   <img src="assets/english-star/word-rush.png" width="260" alt="Word Rush game">
 </p>
 
-<sub>Screenshots use sample data.</sub>
+<sub>Screenshots use sample data. Left to right: upload a worksheet and get a lesson, the admin queue of AI judge decisions, the Word Rush game.</sub>
 
 ---
 
@@ -47,6 +47,12 @@ Before spending the larger generation budget, a cheap model call decides whether
 - **It learns from corrections:** when the admin overrides or confirms a decision, the case is stored as trusted memory and fed back into the judge's prompt as examples. The latest correction for an upload replaces earlier ones.
 - **Untrusted input is treated as data:** text extracted from a photo is wrapped and marked as untrusted, and a judge that flags prompt injection is forced to "review" regardless of its confidence.
 
+<p>
+  <img src="assets/english-star/ai-lesson.png" width="260" alt="Generated lesson: vocabulary, questions, spelling, sentences">
+  <img src="assets/english-star/admin-costs.png" width="260" alt="Admin dashboard with token, cost and limit tracking">
+</p>
+<sub>A lesson generated from one worksheet, and the admin dashboard tracking tokens, estimated cost and the hard limits.</sub>
+
 ### Cost control that can't be configured away
 
 AI limits (uploads per family per day, uploads per day overall, file size, extracted tokens, output tokens) have **hard ceilings in code**. Environment variables and the admin settings page can tune them, but never above the ceiling. Token usage and estimated cost are recorded per upload and shown on the admin dashboard.
@@ -54,6 +60,12 @@ AI limits (uploads per family per day, uploads per day overall, file size, extra
 ### Difficulty that actually changes
 
 Each child has an English level (automatic from school grade, or Beginner → Advanced). The level sets the number of words and questions, the question type (direct recall vs. inference), maximum sentence length and spelling word length in the generation prompt. The model's output is then **clamped to the level in code**, so a verbose model can't exceed it.
+
+<p>
+  <img src="assets/english-star/family-levels.png" width="260" alt="Family page with an English level per child">
+  <img src="assets/english-star/child-home.png" width="260" alt="Child home showing grade, English level and interest-based missions">
+</p>
+<sub>Parents set each child's English level; the child's home shows it and builds missions from their interests.</sub>
 
 ## Privacy and security
 
@@ -73,7 +85,28 @@ Built for 9–10-year-olds, designed so guessing doesn't win: shuffled answers w
 - **Hero English:** superhero-themed reading and a "make your own hero" sentence builder
 - **School work:** written Hebrew-meaning tests and fill-the-gap practice for a child's actual vocabulary list
 
-<img src="assets/english-star/nature-games.png" width="300" alt="Nature games">
+<table>
+  <tr>
+    <td><img src="assets/english-star/games-world.png" width="240" alt="Block World game map"></td>
+    <td><img src="assets/english-star/reading-hard.png" width="240" alt="Hard reading text with a comprehension question"></td>
+    <td><img src="assets/english-star/nature-games.png" width="240" alt="Nature games"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Block World missions</sub></td>
+    <td align="center"><sub>Hard reading + question</sub></td>
+    <td align="center"><sub>Nature games</sub></td>
+  </tr>
+  <tr>
+    <td><img src="assets/english-star/make-your-hero.png" width="240" alt="Make your own hero writing activity"></td>
+    <td><img src="assets/english-star/little-explorer.png" width="240" alt="Little Explorer for young learners"></td>
+    <td><img src="assets/english-star/word-rush.png" width="240" alt="Word Rush"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Make your own hero</sub></td>
+    <td align="center"><sub>Little Explorer for young kids</sub></td>
+    <td align="center"><sub>Word Rush</sub></td>
+  </tr>
+</table>
 
 ---
 
