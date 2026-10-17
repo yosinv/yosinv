@@ -24,7 +24,7 @@ I lead a data engineering team at a cybersecurity SaaS company. For 10+ years I'
 
 | Project | What it is |
 |---|---|
-| [LLMBigQuery](https://github.com/yosinv/LLMBigQuery) | Text-to-SQL over BigQuery with Claude: SQL guardrails, dry-run cost limits, self-repair, and an execution-accuracy eval harness |
+| [LLMBigQuery](https://github.com/yosinv/LLMBigQuery) | Natural Language to SQL over BigQuery with Claude: ask questions in plain English, get guarded SQL, SQL guardrails, dry-run cost limits, self-repair, and an execution-accuracy eval harness |
 | [Accessible Stays Finder](https://github.com/yosinv/LMLP_AI_DBX) | Databricks AI agent that finds wheelchair-accessible stays from guest reviews, using LangGraph, MCP tools and Llama 3.3 |
 | [invHunter](https://github.com/yosinv/invHunter-public) | Claude-powered analysis of Tel Aviv Stock Exchange stocks plus a graph-based Polymarket arbitrage scanner, with a Telegram bot and Streamlit dashboard. A research project, not financial advice |
 
