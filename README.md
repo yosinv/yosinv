@@ -6,15 +6,15 @@ I lead a data engineering team at a cybersecurity SaaS company. For 10+ years I'
 
 ---
 
-### 🔧 What I work on
+### ❤️ Why I love data engineering
 
-- **Big data at scale:** Spark on EMR and Databricks, Delta Lake and Parquet, petabyte-scale multi-cloud pipelines
-- **Real-time detection:** Kafka-based near-real-time pipelines, with lightweight DuckDB engines next to Spark batch where latency matters
-- **Cost and performance engineering:** per-pipeline compute cost tracking, cluster right-sizing, Spark tuning
-- **Orchestration and reliability:** Airflow (MWAA) DAGs in production, monitoring, on-call
-- **Applied AI:** co-designed two production Claude-based decision systems on AWS Bedrock, plus MCP servers and agent workflows for data-platform operations
-- **AI-native engineering:** team-wide Claude Code setup (skills, subagents, automated review and performance gates) and n8n automations
-- **Security data:** Splunk and security-analytics data pipelines
+I love the unglamorous part of data: the pipeline nobody notices because it just works. Taking huge, messy, late-arriving data and turning it into something people can trust is still the most satisfying engineering problem I know.
+
+- **Scale is a puzzle.** Finding out why a Spark job is slow, or why a cluster costs twice what it should, is my favourite kind of detective work.
+- **Trust is the product.** A dashboard is only as honest as the pipeline behind it, so I care about data quality, idempotent jobs and being able to reprocess without fear.
+- **Fresh data changes decisions.** Getting from "yesterday's batch" to "a few seconds ago" never stops being fun.
+- **AI makes data more fun, not less.** I build LLM tools on top of data, and treat them like any other pipeline: tested, measured and guarded.
+- **Curiosity first.** Most of the projects below started as "I wonder if...".
 
 ### 🧰 Stack
 
