@@ -30,6 +30,8 @@ I love the unglamorous part of data: the pipeline nobody notices because it just
 | [Math Star](https://github.com/yosinv/math-star) | Hebrew math practice app for kids, kindergarten to 6th grade, on Cloudflare Workers: every problem is generated fresh, difficulty adapts as the child answers, mistakes come back for review, and it shares sign-in and family profiles with English Star |
 | [invHunter](https://github.com/yosinv/invHunter-public) | Claude-powered analysis of Tel Aviv Stock Exchange stocks plus a graph-based Polymarket arbitrage scanner, with a Telegram bot and Streamlit dashboard. A research project, not financial advice |
 
+English Star and Math Star are live apps used by real families. The address isn't public: access is by request, so contact me if you'd like to try them.
+
 ### 📫 Contact
 
 - Email: yosinv@gmail.com
