@@ -8,7 +8,7 @@ I lead a data engineering team at a cybersecurity SaaS company. For 10+ years I'
 
 ### ❤️ Why I love data engineering
 
-I love the unglamorous part of data: the pipeline nobody notices because it just works. Taking huge, messy, late-arriving data and turning it into something people can trust is still the most satisfying engineering problem I know.
+I love the unglamorous part of data: the pipeline nobody notices because it just works. Taking huge, messy data and turning it into something people can trust is still the most satisfying engineering problem I know.
 
 - **Scale is a puzzle.** Finding out why a Spark job is slow, or why a cluster costs twice what it should, is my favourite kind of detective work.
 - **Trust is the product.** A dashboard is only as honest as the pipeline behind it, so I care about data quality, idempotent jobs and being able to reprocess without fear.
