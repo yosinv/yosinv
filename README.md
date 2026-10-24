@@ -27,6 +27,7 @@ I love the unglamorous part of data: the pipeline nobody notices because it just
 | [LLMBigQuery](https://github.com/yosinv/LLMBigQuery) | Natural Language to SQL over BigQuery with Claude: ask questions in plain English and get safe SQL back, with read-only guardrails, dry-run cost limits, self-repair, and an execution-accuracy eval harness |
 | [Accessible Stays Finder](https://github.com/yosinv/LMLP_AI_DBX) | Databricks AI agent that finds wheelchair-accessible stays from guest reviews, using LangGraph, MCP tools and Llama 3.3 |
 | [English Star](https://github.com/yosinv/english-star-public) | AI-assisted English practice app for kids on Cloudflare Workers: an AI judge with human-in-the-loop corrections decides which uploaded worksheets become personalised lessons, with hard AI cost ceilings, per-child difficulty levels and 14-day photo retention |
+| [Math Star](https://github.com/yosinv/math-star) | Hebrew math practice app for kids, kindergarten to 6th grade, on Cloudflare Workers: every problem is generated fresh, difficulty adapts as the child answers, mistakes come back for review, and it shares sign-in and family profiles with English Star |
 | [invHunter](https://github.com/yosinv/invHunter-public) | Claude-powered analysis of Tel Aviv Stock Exchange stocks plus a graph-based Polymarket arbitrage scanner, with a Telegram bot and Streamlit dashboard. A research project, not financial advice |
 
 ### 📫 Contact
