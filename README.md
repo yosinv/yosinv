@@ -13,7 +13,7 @@ I love the unglamorous part of data: the pipeline nobody notices because it just
 - **Scale is a puzzle.** Finding out why a Spark job is slow, or why a cluster costs twice what it should, is my favourite kind of detective work.
 - **Trust is the product.** A dashboard is only as honest as the pipeline behind it, so I care about data quality, idempotent jobs and being able to reprocess without fear.
 - **Fresh data changes decisions.** Getting from "yesterday's batch" to "a few seconds ago" never stops being fun.
-- **AI makes data more fun, not less.** I build LLM tools on top of data, and treat them like any other pipeline: tested, measured and guarded.
+- **AI makes data more fun, not less.** I build agentic flows on top of data, and treat them like any other pipeline: tested, measured and guarded.
 - **Curiosity first.** Most of the projects below started as "I wonder if...".
 
 ### 🧰 Stack
